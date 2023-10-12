@@ -1,0 +1,595 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16308 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/csj98/Whack A Mole
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54740
+Successfully changed project path to: C:/Users/csj98/Whack A Mole
+C:/Users/csj98/Whack A Mole
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10584] Host "[IP] 172.30.1.12 [Port] 0 [Flags] 2 [Guid] 2782862327 [EditorId] 2782862327 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C0HHU05) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10584] Host "[IP] 172.30.1.12 [Port] 0 [Flags] 2 [Guid] 2782862327 [EditorId] 2782862327 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C0HHU05) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 7.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/csj98/Whack A Mole/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008595 seconds.
+- Loaded All Assemblies, in  0.341 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.293 seconds
+Domain Reload Profiling: 632ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (135ms)
+		LoadAssemblies (95ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (116ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (293ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (231ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (148ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.741 seconds
+Refreshing native plugins compatible for Editor in 3.40 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.509 seconds
+Domain Reload Profiling: 1248ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (513ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (299ms)
+			TypeCache.Refresh (281ms)
+				TypeCache.ScanAssembly (268ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (510ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (354ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.7 KB). Loaded Objects now: 3559.
+Memory consumption went from 196.9 MB to 196.9 MB.
+Total: 2.804000 ms (FindLiveObjects: 0.253900 ms CreateObjectMapping: 0.237200 ms MarkObjects: 2.167300 ms  DeleteObjects: 0.144800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1081082.498293 seconds.
+  path: Assets/IntroLightingSettings.lighting
+  artifactKey: Guid(a99c6216ac8070f46bb086c42ab00286) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/IntroLightingSettings.lighting using Guid(a99c6216ac8070f46bb086c42ab00286) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fec4f81f068a39a0da0b2afc781db153') in 0.141949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/Intro.unity
+  artifactKey: Guid(a1198ab7cc54ae9468794aae8cfcd649) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Intro.unity using Guid(a1198ab7cc54ae9468794aae8cfcd649) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f8e05826d59bf3ffbeb888c6d00576b') in 0.008734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-21.wav
+  artifactKey: Guid(ffb159a21c8a04135a5616979c828fab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-21.wav using Guid(ffb159a21c8a04135a5616979c828fab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a3580e9443faf63c141410cec075ad9') in 0.083720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-50.wav
+  artifactKey: Guid(79e6baad2fd414b82a6d49ce1568d2e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-50.wav using Guid(79e6baad2fd414b82a6d49ce1568d2e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1dc1e01ed67fe07bf292009a041c0bc6') in 0.076021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7dadac72e075d808565dd0125ca5c55f') in 0.024902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-45.wav
+  artifactKey: Guid(52320e590bf774734a288886eba557ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-45.wav using Guid(52320e590bf774734a288886eba557ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8de1db84084b77ccb9db69cdd7411c7c') in 0.073418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/IntroScenario.cs
+  artifactKey: Guid(724200577d80bb1458da457cd515a241) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/IntroScenario.cs using Guid(724200577d80bb1458da457cd515a241) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4f244a41f1bb0acb5fe5f6c94c22e692') in 0.010421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02f4f8965d774945b9b5cd277f08edf9') in 0.033720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-09.wav
+  artifactKey: Guid(ff5f85da24bc943d1abdc5760a22bc81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-09.wav using Guid(ff5f85da24bc943d1abdc5760a22bc81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb44a73a740b2dbe3c33644698f9f742') in 0.080205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '228fd610efee750a13f4a89caf297495') in 0.026747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b280a880d7f7acfc8d741ceaaed14919') in 0.034859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/MoleRed.mat
+  artifactKey: Guid(154862b5dd723ef4f8092669764e5ef9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/MoleRed.mat using Guid(154862b5dd723ef4f8092669764e5ef9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cea739b4a9234d4226d23e6ddd331e42') in 0.046907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-03.wav
+  artifactKey: Guid(19f89c6e740e7447f9e12a8310d3e973) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-03.wav using Guid(19f89c6e740e7447f9e12a8310d3e973) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7cba9cf78cdddd9d62280ce9736e5913') in 0.096079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/MoleSpawner.cs
+  artifactKey: Guid(ea1a084568310444094a46938ec3de7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/MoleSpawner.cs using Guid(ea1a084568310444094a46938ec3de7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '628a00f523fea668d1a5eca6ef41203a') in 0.011169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-35.wav
+  artifactKey: Guid(89e6bc608da7b47d4914f3d9c2484e48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-35.wav using Guid(89e6bc608da7b47d4914f3d9c2484e48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76e5947d0933ac6e233535183861d467') in 0.074706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-36.wav
+  artifactKey: Guid(df729d213c4be44a9b55cd109f5cd4f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-36.wav using Guid(df729d213c4be44a9b55cd109f5cd4f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd2dbd4d830d67722b3a3e67eb1646f5') in 0.078229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-01.wav
+  artifactKey: Guid(32d4b1811dda14a6cb9e059ee8ad17d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-01.wav using Guid(32d4b1811dda14a6cb9e059ee8ad17d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd0eb688dd8594c42fb4071f1684da6f3') in 0.055088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-29.wav
+  artifactKey: Guid(80e397195ea2940b69ee7bdbded856a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-29.wav using Guid(80e397195ea2940b69ee7bdbded856a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a87a1745b98a871b156e8a0e9961efcd') in 0.069067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-41.wav
+  artifactKey: Guid(7e9ee6dc04a5d40d1a5dfc4beb9865e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-41.wav using Guid(7e9ee6dc04a5d40d1a5dfc4beb9865e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '03c2fc23fe1ed87a4db6e181817c5e6d') in 0.087250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f705f3a54fe2eb470587846d9598848') in 0.099715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Mole.prefab
+  artifactKey: Guid(b8386b6d3e877504e99e750f1dac09f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Mole.prefab using Guid(b8386b6d3e877504e99e750f1dac09f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '348be2053371954286aeef789cd8553d') in 0.041116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/TextRankData.prefab
+  artifactKey: Guid(59c898165f3f37440afd2909e781802b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/TextRankData.prefab using Guid(59c898165f3f37440afd2909e781802b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6558119acb37174484539595ada5a2a3') in 0.082022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb3c33eee9704ba91ef716a5e7d81880') in 0.009284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/MoleHitEffect.prefab
+  artifactKey: Guid(b30f1ff22da46bf45b6f6ab88b990d20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/MoleHitEffect.prefab using Guid(b30f1ff22da46bf45b6f6ab88b990d20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '110b6c16609ae92c56f8f165f16874b0') in 0.087351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'feedc6bfa4eea46cfff2250af564475a') in 0.035141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/Ground.mat
+  artifactKey: Guid(2d3f63a90605ed54480ac521163d3b72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Ground.mat using Guid(2d3f63a90605ed54480ac521163d3b72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '48db11f90f9cb84ff2235c1a52bb13ca') in 0.026257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd50378c2fc454a007ff745384827c404') in 0.011590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '69195513baf93f0248110b523860da95') in 0.027217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '96c951780b636d6755cc89fdb28a1211') in 0.035538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '272bc4fd55258fd3feaf02369e6cca15') in 0.033869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '196da3387e25d9a76a5ba5fbea7ccfa5') in 0.012646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-17.wav
+  artifactKey: Guid(b9eff218e132a4e76be78840eca96fb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-17.wav using Guid(b9eff218e132a4e76be78840eca96fb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a230e67624ae28cc25e8559d7392cedd') in 0.093987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-49.wav
+  artifactKey: Guid(7bef0064f8567430cac22499c6b93d4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-49.wav using Guid(7bef0064f8567430cac22499c6b93d4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0f81fac4a45418c4d3642bd19a16ff99') in 0.096031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-33.wav
+  artifactKey: Guid(35fbad8cdde724f11ba6481f1e64af71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-33.wav using Guid(35fbad8cdde724f11ba6481f1e64af71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '19a8adb87440bddeb91921eee5ed0cfc') in 0.120292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/Mole.mat
+  artifactKey: Guid(0e14dd16119956f4aa3016fe60967556) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Mole.mat using Guid(0e14dd16119956f4aa3016fe60967556) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d07e72d25a13b255440a498fd897c30') in 0.012036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-16.wav
+  artifactKey: Guid(724131bc8a7f34041bb9f1701f0cb58d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-16.wav using Guid(724131bc8a7f34041bb9f1701f0cb58d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '56fa85605f848622de73e8bcee48beb8') in 0.083005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Hole.prefab
+  artifactKey: Guid(d3fca61b71197c047a8e5d73012a1bc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Hole.prefab using Guid(d3fca61b71197c047a8e5d73012a1bc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8f4ffc6eb2a4b75b035cf7b017f9985') in 0.011229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/ParticleAutoDestroy.cs
+  artifactKey: Guid(043b3ce31b2d1024783cd9bcdcb6906e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/ParticleAutoDestroy.cs using Guid(043b3ce31b2d1024783cd9bcdcb6906e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a54562873dcabc60c0d7369c2a006653') in 0.010736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1912827d98a9acf78aa5f1b24ce2180') in 0.040171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-28.wav
+  artifactKey: Guid(79180f511d89441b9aa23ccae1992fe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-28.wav using Guid(79180f511d89441b9aa23ccae1992fe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7e6ce98a7a52b3a9dc7f152cd4bd4e21') in 0.077799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-18.wav
+  artifactKey: Guid(2667a0a008b044e218b63df62e2be749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-18.wav using Guid(2667a0a008b044e218b63df62e2be749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a51b888e79c0951eb42bc5e58e71b9e2') in 0.093322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3562.
+Memory consumption went from 146.1 MB to 146.1 MB.
+Total: 3.259100 ms (FindLiveObjects: 0.246200 ms CreateObjectMapping: 0.230400 ms MarkObjects: 2.762700 ms  DeleteObjects: 0.019000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.584216 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-05.wav
+  artifactKey: Guid(b99da9a57308d4ba1bee1cf1d9038376) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-05.wav using Guid(b99da9a57308d4ba1bee1cf1d9038376) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec7a18138a6cfda64a53859ce3edfa73') in 0.077903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-32.wav
+  artifactKey: Guid(29bde6326b4c34ad8a12da475f79b50a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-32.wav using Guid(29bde6326b4c34ad8a12da475f79b50a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42bb866a45087ff62174af1b0d275f74') in 0.063097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-44.wav
+  artifactKey: Guid(b43d102aac6b145468dcaa94a5cccae1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-44.wav using Guid(b43d102aac6b145468dcaa94a5cccae1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '898428a7a3bfd7a718206dc0a8a4f6be') in 0.072836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-20.wav
+  artifactKey: Guid(6e8772b49f34d402a90016ed445d8a2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-20.wav using Guid(6e8772b49f34d402a90016ed445d8a2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5de5d6705a1219bf6db276eba1115f9') in 0.084539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '88e5d8ae3908ae3cc0278e2d6fb11c79') in 0.029470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-46.wav
+  artifactKey: Guid(fe0b1f9aeb45b41b089175aeeabd5d95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CasualGameSounds/DM-CGS-46.wav using Guid(fe0b1f9aeb45b41b089175aeeabd5d95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd962fae9185f785091fc9368d8a36ad4') in 0.078566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.091901 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1faea4c4f627309a8d7d0f7c0b7e814d') in 0.012066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dddc7d871f9e5c847aeca0814bb563c7') in 0.021671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67e93032732193854ffe95d5584a3d1f') in 0.013186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
